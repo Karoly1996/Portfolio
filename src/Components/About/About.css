@@ -24,10 +24,15 @@
   display: flex;
   gap: 80px;
 }
+
+.about-left img {
+  border-radius: 50%; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
 .about-right{
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 60px;
 }
 .about-para{
   display: flex;
